@@ -1,0 +1,42 @@
+html,body{
+    background-color: #3576ed;
+}
+header,section>div{
+    width: 37.5rem;
+}
+header{
+    height: 21.3rem;
+    background: url("../images/bg_01.png") center no-repeat;
+    background-size: cover;
+}
+section div:nth-child(1){
+    height: 22.8rem;
+    background: url("../images/bg_02.png") center no-repeat;
+    background-size: cover;
+}
+section div:nth-child(2){
+    box-sizing: border-box;
+    padding-top: 1.4rem;
+    height: 6.7rem;
+}
+section div:nth-child(2) span{
+    margin: 0 auto;
+    display: block;
+    width: 16.6rem;
+    height: 4.85rem;
+    border-radius: 1.8rem;
+    box-shadow: .3rem .4rem .5rem .1rem #1e4dc2;
+    background: url("../images/button.png") center no-repeat;
+    background-size: cover;
+}
+section div:nth-child(3){
+    height: 33.2rem;
+    background: url("../images/bg_04.png") center no-repeat;
+    background-size: cover;
+}
+section div:nth-child(4){
+    margin-bottom: 3.15rem;
+    height: 25.75rem;
+    background: url("../images/bg_05.png") center no-repeat;
+    background-size: cover;
+}
